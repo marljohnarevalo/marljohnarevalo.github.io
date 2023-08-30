@@ -71,7 +71,7 @@ header a:hover{
     background: #BFB48F;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     .hamburger{
         display: block;
         z-index: 9999;
@@ -162,39 +162,69 @@ header a:hover{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: end;
 }
 
+.section-2{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
 .section-2 img{
-    width: 40%;
-    /* object-fit: cover; */
+    width: clamp(500px, 30vw, 700px);
+    object-fit: contain;
+    align-self: self-end;
 }
 
 .section-2 .about-me{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 50%;
-    /* height: 100vh; */
-}
-
-.section-2 .title{
-    font-size: 2.5rem;
-    font-weight: 300;
-}
-
-.section-2 hr{
-    width: 20rem;
-    border-color: #252627;
-}
-
-.section-2 .description{
-    margin-top: 1rem;
-    font-size: 1.2rem;
+    align-self: center;
     text-align: center;
-    font-weight: 300;
+    max-width: 50%;
+}
+
+.section-2 .about-me .title{
+    font-size: var(--headerSize);
+}
+
+.section-2 .about-me hr{
+    width: var(--hr);
+    border-color: #252627;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.section-2 .about-me .description{
+    font-size: clamp(20px, 1.5vw, 35px);
+}
+
+@media (max-width: 992px){
+    .section-2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        padding: 0;
+    }
+    .section-2 img{
+        width: clamp(350px, 70vw, 600px);
+        order: 2;
+        align-self: center;
+    }
+    .section-2 .about-me{
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 15vw;
+    }
+    .section-2 .about-me .title{
+        font-size: var(--headerSize);
+    }
+    .section-2 .about-me hr{
+        width: var(--hr);
+        margin: auto;
+        border-color: #252627;
+    }
+    .section-2 .about-me .description{
+        font-size: clamp(20px, 3vw, 25px);
+        max-width: 70%;
+        margin: auto;
+    }
 }
 
 
