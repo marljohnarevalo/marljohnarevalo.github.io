@@ -15,25 +15,10 @@ let navItems = document.querySelectorAll(".nav-items .item")
 
 hamburger.addEventListener("click", openNavbar)
 navItems.forEach(item => {
-    item.addEventListener("click", closeNavbar)
+    item.addEventListener("click", openNavbar)
 })
 
 function openNavbar(){
-    if(!navbar.classList.contains("visible")){
-        navbar.classList.add("visible")
-        navbar.classList.remove("invisible")
-        hamburger.classList.add("visible")
-        hamburger.classList.remove("invisible")
-    }
-    else{
-        navbar.classList.remove("visible")
-        navbar.classList.add("invisible")
-        hamburger.classList.remove("visible")
-        hamburger.classList.add("invisible")
-    }
-}
-
-function closeNavbar(){
     if(!navbar.classList.contains("visible")){
         navbar.classList.add("visible")
         navbar.classList.remove("invisible")

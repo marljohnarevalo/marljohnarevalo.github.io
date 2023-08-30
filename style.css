@@ -223,6 +223,7 @@ header a:hover{
     .section-2 .about-me .description{
         font-size: clamp(20px, 3vw, 25px);
         max-width: 70%;
+        font-weight: 300;
         margin: auto;
     }
 }
