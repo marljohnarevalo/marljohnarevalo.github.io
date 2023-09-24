@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Marl John Arevalo</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="logo-container">
+            <a href="#section-1" class="logo">marljohnarevalo()</a>
+        </div>
+        <ul class="nav-items invisible">
+            <li class="item"><a href="#section-2">About</a></li>
+            <li class="item"><a href="#section-3">Experience</a></li>
+            <li class="item"><a href="#section-4">Projects</a></li>
+            <li class="item"><a href="#footer">Contact</a></li>
+        </ul>
+        <div class="hamburger invisible">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <section class="section-1" id="section-1">
+        <p class="name">HI, I'M<br>MARL JOHN AREVALO</p>
+        <hr>
+        <p class="role">Web Developer</p>
+    </section>
+
+    <section class="section-2" id="section-2">
+        <img src="assets/my-photo.png" alt="">
+        <div class="about-me">
+            <p class="title">ABOUT ME</p>
+            <hr>
+            <p class="description">
+                I hold a Bachelor of Science degree in Information. I specialize in creating minimalistic and responsive web designs and applications.
+            </p>
+        </div>
+    </section>
+
+    <!-- <section class="section-3" id="section-3">
+        <div class="experience-wrapper">
+            <p class="title">EXPERIENCE</p>
+            <hr>
+            <div class="experience">
+                <p class="year">2023</p>
+                <div class="content-container">
+                    <p class="role">On The Job Trainee</p>
+                    <p class="office">Bicol University Center for Technlogy Commercializaiton and Enterprise Development</p>
+                    <p class="description">Developed a database management system for the incoming and outgoing documents of the office. Assisted in the office tasks and errands such as photocopying documents, filing, printing, and documenting events.</p>
+                </div>
+            </div>
+        </div>
+        <div class="certificates-wrapper">
+            <p class="title">CERTIFICATES</p>
+            <hr>
+            <div class="certificate-container">
+                <a href="" class="certificate">
+                    <p class="title">HTML/CSS</p>
+                    <p class="company">TestDome</p>
+                    <p class="view-cert">View Certificate</p>
+                </a>
+                <a href="" class="certificate">
+                    <p class="title">HTML/CSS</p>
+                    <p class="company">TestDome</p>
+                    <p class="view-cert">View Certificate</p>
+                </a>
+                <a href="" class="certificate">
+                    <p class="title">HTML/CSS</p>
+                    <p class="company">TestDome</p>
+                    <p class="view-cert">View Certificate</p>
+                </a>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="section-4" id="section-4">
+        <div class="title-container">
+            <p class="title">PROJECTS</p>
+            <hr>
+        </div>
+        <div class="project-container">
+            <div class="project">
+                <div class="title">LegoPC</div>
+                <a href="https://legopc.steinnlab.com/" class="image-link" target="blank">
+                    <img src="assets/legopc-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <footer class="footer" id="footer">
+        <div class="title-container">
+            <p class="title">CONTACT ME</p>
+            <hr>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-items">
+                <li class="email">
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=marljohnarevalo.dev@gmail.com" target="blank">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </a>
+                </li>
+                <li class="phone">
+                    <a href="https://web.facebook.com/NorahC.X" target="blank">
+                        <i class="fa-brands fa-facebook"></i>
+                        Facebook
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a href="https://linkedin.com/in/mjohnarevalo" target="blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer> -->
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+</body>
+</html>
